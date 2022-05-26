@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+             CSS  Animation 3
+        </title>
+        <style type="text/css">
+            div
+            {
+                height:150px;
+                width:150px;
+                transition:7s;
+                font-size:20px;
+                font-weight:bold;
+                color:#adaf14;
+                background-color:rgb(45, 92, 82);
+            }
+            
+			#TranslateDiv:hover
+            {
+                -webkit-transform:translate(175px,100px);
+                   -moz-transform:translate(175px,100px);
+                    -ms-transform:translate(175px,100px);
+                     -o-transform:translate(175px,100px);
+                        transform:translate(175px,100px);
+                      background-color:rgb(71, 170, 58);
+                      color:rgb(170, 46, 63); 
+            }
+			
+            #RotateDiv:hover
+            {
+                -webkit-transform:rotate(360deg);
+                   -moz-transform:rotate(360deg);
+                    -ms-transform:rotate(360deg);
+                     -o-transform:rotate(360deg);
+                        transform:rotate(360deg);
+                      background-color:rgb(106, 123, 126);
+                      color:rgb(8, 104, 121); 
+         
+            }
+			#RotateDiv3D:hover{
+				-webkit-transform:rotate3d(1,1,0,360deg);
+                   -moz-transform:rotate3d(1,1,0,360deg);
+                    -ms-transform:rotate3d(1,1,0,360deg);
+                     -o-transform:rotate3d(1,1,0,360deg);
+                        transform:rotate3d(1,1,0,360deg);
+                      background-color:rgb(68, 68, 243);
+                      color:rgb(200, 14, 166); 
+         
+			}
+            #SkewDiv:hover
+            {
+                -webkit-transform:skew(90deg);
+                   -moz-transform:skew(90deg);
+                    -ms-transform:skew(90deg);
+                     -o-transform:skew(90deg);
+                        transform:skew(90deg);
+                      background-color:rgb(9, 21, 54);
+                      color:rgb(36, 7, 32); 
+            }
+            #ScaleDiv:hover
+            {
+                -webkit-transform:scale(1.5,0.5);
+                   -moz-transform:scale(1.5,0.5);
+                    -ms-transform:scale(1.5,0.5);
+                     -o-transform:scale(1.5,0.5);
+                        transform:scale(1.5,0.5);
+                      background-color:rgb(24, 224, 67);
+                      color:rgb(219, 30, 24); 
+            }
+            #OpacityDiv:hover
+            {
+                opacity:1;
+            }
+            #RGBADiv:hover
+            {
+                background:rgba(7, 79, 121, 0.5);
+            }
+            #BoxShadowDiv:hover
+            {
+                box-shadow:0px 0px 30px rgb(36, 104, 131);
+            }
+            #TextShadowDiv:hover
+            {
+                text-shadow:3px 3px 3px rgba(119, 29, 122, 0.267);
+            }
+			#BorderRadiusDiv:hover
+			{
+				border-radius:70%;
+			}
+			#OverFlowDiv{overflow:auto;}
+        </style>
+	</head>
+    <body>
+        <center>
+        <b>Translate:-</b>
+        <div id="TranslateDiv">KL RAHUL </div>
+        <hr />
+        <b>Rotate:-</b>
+        <div id="RotateDiv">MS DHONI </div>
+        <hr />
+        <b>Rotate 3d:-</b>
+		<div id="RotateDiv3D"> VIRAT KOHLI </div>
+        <hr />
+        <b>Skew:-</b>
+        <div id="SkewDiv">SHREYAS IYER </div>
+        <hr />
+        <b>Scale :-</b>
+        <div id="ScaleDiv"> K YADAV</div>
+        <hr />
+        <b>Opacity:-</b>
+        <div id="OpacityDiv">M SHAMI</div>
+        
+        <hr />
+        <b>RGBA:-</b>
+        <div id="RGBADiv">SURYA KUMAR YADAV </div>
+        
+        <hr />
+        <b>Box-Shad:-</b>
+        <div id="BoxShadowDiv"> ROHIT SHARMA</div>
+        <hr />
+        <b>Text-Shadow:-</b>
+        <div id="TextShadowDiv">ISHAN SHARMA</div>
+        
+        <hr />
+        <b>Border Radius:-</b>
+		<div id="BorderRadiusDiv"> B KUMAR</div>
+        
+        <hr />
+        <b>Overflow :-</b>
+		<div id="OverFlowDiv"> CRICKETER NAME CRICKETER NAME CRICKETER NAME CRICKETER NAME CRICKETER NAME CRICKETER NAME CRICKETER NAME VCRICKETER NAME CRICKETER NAME CRICKETER NAME CRICKETER NAME  </div>
+        <hr />
+    </center>
+    </body>
+</html>

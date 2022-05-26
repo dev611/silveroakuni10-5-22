@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+           CSS ANIMATION 2.4
+        </title>
+        <style type="text/css">
+            div
+            {
+                height:125px;
+                width: 125px;
+                transition:5s;
+                font-size:15px;
+                font-weight:bold;
+                color:#3f6f7a;
+                background-color:rgb(129, 136, 28);
+            }
+            
+			
+            #SkewDiv:hover
+            {
+                -webkit-transform:skew(60deg);
+                   -moz-transform:skew(60deg);
+                    -ms-transform:skew(60deg);
+                     -o-transform:skew(60deg);
+                        transform:skew(60deg);
+                      background-color:rgb(135, 151, 43);
+                      color:rgb(117, 27, 110); 
+            }
+        </style>
+	</head>
+    <body TEXT="RED">
+        <b>Skew</b>
+        <div id="SkewDiv">RED ME</div>
+        <hr />
+    </body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+           CSS ANIMATION 2
+        </title>
+        <style type="text/css">
+            div
+            {
+                height:125px;
+                width: 125px;
+                transition:5s;
+                font-size:15px;
+                font-weight:bold;
+                color:#3f6f7a;
+                background-color:rgb(129, 136, 28);
+            }
+            
+			#TranslateDiv:hover
+            {
+                -webkit-transform:translate(120px,120px);
+                   -moz-transform:translate(120px,120px);
+                    -ms-transform:translate(120px,120px);
+                     -o-transform:translate(120px,120px);
+                        transform:translate(120px,120px);
+                      background-color:rgb(14, 132, 136);
+                      color:rgb(163, 163, 13); 
+            }
+			
+            #RotateDiv:hover
+            {
+                -webkit-transform:rotate(360deg);
+                   -moz-transform:rotate(360deg);
+                    -ms-transform:rotate(360deg);
+                     -o-transform:rotate(360deg);
+                        transform:rotate(360deg);
+                      background-color:rgb(54, 102, 69);
+                      color:rgb(219, 106, 53); 
+         
+            }
+			#RotateDiv3D:hover{
+				-webkit-transform:rotate3d(1,1,0,360deg);
+                   -moz-transform:rotate3d(1,1,0,360deg);
+                    -ms-transform:rotate3d(1,1,0,360deg);
+                     -o-transform:rotate3d(1,1,0,360deg);
+                        transform:rotate3d(1,1,0,360deg);
+                      background-color:rgb(33, 123, 129);
+                      color:rgb(69, 155, 79); 
+         
+			}
+            #SkewDiv:hover
+            {
+                -webkit-transform:skew(60deg);
+                   -moz-transform:skew(60deg);
+                    -ms-transform:skew(60deg);
+                     -o-transform:skew(60deg);
+                        transform:skew(60deg);
+                      background-color:rgb(135, 151, 43);
+                      color:rgb(117, 27, 110); 
+            }
+            #ScaleDiv:hover
+            {
+                -webkit-transform:scale(1.5,0.5);
+                   -moz-transform:scale(1.5,0.5);
+                    -ms-transform:scale(1.5,0.5);
+                     -o-transform:scale(1.5,0.5);
+                        transform:scale(1.5,0.5);
+                      background-color:rgb(2, 128, 121);
+                      color:rgb(25, 95, 29); 
+            }
+            #OpacityDiv:hover
+            {
+                opacity:1;
+            }
+            #RGBADiv:hover
+            {
+                background:rgba(67, 45, 165, 0.5);
+            }
+            #BoxShadowDiv:hover
+            {
+                box-shadow:2px 2px 50px rgb(88, 88, 127);
+            }
+            #TextShadowDiv:hover
+            {
+                text-shadow:5px 5px 5px rgb(25, 168, 173);
+            }
+			#BorderRadiusDiv:hover
+			{
+				border-radius:90%;
+			}
+			#OverFlowDiv{overflow:auto;}
+        </style>
+	</head>
+    <body TEXT="RED">
+        <b>Translate</b>
+        <div id="TranslateDiv">IPHONE</div>
+        <hr />
+        <b>Rotate</b>
+        <div id="RotateDiv">ONE PLUS</div>
+        <hr />
+        <b>Rotate</b>
+		<div id="RotateDiv3D">REAL ME</div>
+        <hr />
+        <b>Skew</b>
+        <div id="SkewDiv">RED ME</div>
+        <hr />
+        <b>scale</b>
+        <div id="ScaleDiv">OPPO</div>
+        <hr />
+        <b>Opacity</b>
+        <div id="OpacityDiv">VIVO</div>
+        <hr />
+        <b>RGBA</b>
+        <div id="RGBADiv">NOTHING 1 </div>
+        <hr />
+        <b>Box-Shad</b>
+        <div id="BoxShadowDiv">POCO</div>
+        
+        <hr />
+        <b>Text-Shado</b>
+        <div id="TextShadowDiv">INFINIX</div>
+        <hr />
+        <b>Border Radiu</b>
+		<div id="BorderRadiusDiv">SAMSUNG</div>
+        
+        <hr />
+        <b>Overflow</b>
+		<div id="OverFlowDiv"> ALL MOBILE BRAND ALL MOBILE BRAND  ALL MOBILE BRAND  ALL MOBILE BRAND  ALL MOBILE BRAND  ALL MOBILE BRAND  ALL MOBILE BRAND  ALL MOBILE BRAND  ALL MOBILE BRAND  ALL MOBILE BRAND  ALL MOBILE BRAND  ALL MOBILE BRAND ALL MOBILE BRAND  ALL MOBILE BRAND  ALL MOBILE BRAND  </div><hr />
+    </body>
+</html>

@@ -1,0 +1,35 @@
+!DOCTYPE html>
+<html>
+    <head>
+        <title>
+           CSS ANIMATION 2.3
+        </title>
+        <style type="text/css">
+            div
+            {
+                height:125px;
+                width: 125px;
+                transition:5s;
+                font-size:15px;
+                font-weight:bold;
+                color:#3f6f7a;
+                background-color:rgb(129, 136, 28);
+            }
+			#RotateDiv3D:hover{
+				-webkit-transform:rotate3d(1,1,0,360deg);
+                   -moz-transform:rotate3d(1,1,0,360deg);
+                    -ms-transform:rotate3d(1,1,0,360deg);
+                     -o-transform:rotate3d(1,1,0,360deg);
+                        transform:rotate3d(1,1,0,360deg);
+                      background-color:rgb(33, 123, 129);
+                      color:rgb(69, 155, 79); 
+         
+			}
+        </style>
+	</head>
+    <body TEXT="RED">
+        <b>Rotate</b>
+		<div id="RotateDiv3D">REAL ME</div>
+        <hr />
+    </body>
+</html>
